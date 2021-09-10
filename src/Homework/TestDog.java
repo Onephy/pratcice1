@@ -10,6 +10,7 @@ public class TestDog {
         dog1.intoHumanAge();
         dog2.intoHumanAge();
         dog3.intoHumanAge();
+        System.out.println(dog1);
         }
 
 }
