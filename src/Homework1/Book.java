@@ -1,4 +1,4 @@
-package Homework;
+package Homework1;
 
 public class Book {
     private String genre;
@@ -33,8 +33,8 @@ public class Book {
                 '}';
     }
 
-    public void countPages(){
-        System.out.println("Размер книги: " + pages + "страниц");
+    public void toGenre(){
+        System.out.println("The genre of this book is " + genre + "!");
     }
 
 }

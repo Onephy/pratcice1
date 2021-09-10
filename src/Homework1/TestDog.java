@@ -1,18 +1,16 @@
-package Homework;
+package Homework1;
 
 public class TestDog {
     public static void main(String[] args) {
-        Dog dog1 = new Dog("Bobby", 1);
-        Dog dog2 = new Dog("Jimmy", 2);
-        Dog dog3 = new Dog("Andy", 7);
-        dog3.setAge(3);
+        Dog dog1 = new Dog("Sully", 2);
+        Dog dog2 = new Dog("Boyle", 7);
+        Dog dog3 = new Dog("Charles", 4);
+        dog3.setAge(1);
         System.out.println(dog1);
         dog1.intoHumanAge();
         dog2.intoHumanAge();
         dog3.intoHumanAge();
-        System.out.println(dog1);
         }
-
 }
 
 
