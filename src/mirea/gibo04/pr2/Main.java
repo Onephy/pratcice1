@@ -60,6 +60,7 @@ public class Main {
         System.out.println(summ);
         System.out.println(sr);
 
+
         // по убыванию - пузырьковая сортировка
         for (int i = 0; i < var.length; i++) {
             for (int j = 0; j < var.length; j++) {
@@ -94,5 +95,17 @@ public class Main {
         }
 
 
+        int min = var[0];
+        int max = var[0];
+        for (int i = 0; i < var.length; i++){
+            if (min < max) {
+                max = var[i];
+            }
+            else{
+                min = var[i];
+            }
+        }
+        System.out.println("Минимальное число в массиве: " + min);
+        System.out.println("Максимальное число в массиве: " + max);
     }
 }
