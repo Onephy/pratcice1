@@ -105,6 +105,7 @@ public class Main {
                 min = var[i];
             }
         }
+
         System.out.println("Минимальное число в массиве: " + min);
         System.out.println("Максимальное число в массиве: " + max);
     }
