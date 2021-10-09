@@ -1,7 +1,7 @@
 package Homework1;
 
 public class TestBall {
-    public static void main(String []args){
+    public static void main(String[] args){
 
         Ball ball1 = new Ball(10.9, "White");
         Ball ball2 = new Ball(12.25, "Orange");
